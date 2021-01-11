@@ -1,0 +1,12 @@
+{
+    "name": "testes/php",
+    "description": "testes em php",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flavio\\Test\\": "src/"
+        }
+    }
+}
